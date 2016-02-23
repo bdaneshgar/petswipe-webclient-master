@@ -1,0 +1,51 @@
+<div id="full-screen" style='background-color: #e5e5e5'>
+	<div class='double-spacing' id="petsdiv"></div>
+	<br><br>
+
+
+	<div style="width:100%;margin: 0px auto;">
+        <div style="width: 450px;display: inline-block;padding: 0px;margin: 0px;"> 	
+    		<br>
+    		<img id='detail-image' src='{{photoURL}}' alt='{{breed}}'></img>
+			<br><br>
+			<div id='glyph-container'>
+				<div id='glyph-1'>
+						<button type="button" class="glyph-button" aria-label="Left Align">
+							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						</button>
+				</div>
+				<div id='glyph-1'>
+					<button id='like' type="button" class="glyph-button" aria-label="Left Align">
+						<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+        <div  id='detail' style="width: -webkit-calc(100% - 500px); display: inline-block;vertical-align: top;padding: 0px; margin: 0px;"> 
+			<p id='breed'>{{breed}}, {{gender}}</p>
+			<p id='city'>{{city}}</p>
+			<p id='description' class='more'>{{description}}</p>
+		</div>
+	</div>
+</div>
+
+<p id='email'>{{email}}</p>
+<p id='firstName'>{{firstName}}</p>
+
+
+<script src="/javascripts/readmore.js"></script>
+<script src='/javascripts/like.js'></script>
+
+
+<script src='/javascripts/email.js'></script>
+
+
+
+
+
+
+
+
+
+
+
